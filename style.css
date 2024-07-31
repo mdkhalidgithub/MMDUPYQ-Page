@@ -1,0 +1,183 @@
+*{
+    padding: 0%;
+    margin: 0;
+
+}
+.container{
+    padding: 0%;
+    margin: 0%;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.navi{
+    background-color:#353a3f;
+    height: 50px;
+    width:100%;
+}
+.navi nav{
+    color: red;
+    font-weight: 700;
+    margin-left: 700px;
+}
+.imgii{
+    background-color:#e6e6e6;
+    display: flex;
+
+}
+#logo img{
+    margin: 10px;
+    height: 90px;
+    width: 400px;
+}
+.butti button{
+    margin-left: 700px;
+    margin-top: 20px;
+    height: 60px;
+    width: 130px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color:green;
+    color: white;
+}
+.content h1{
+    color: red;
+    margin: 20px;
+    margin-top: 50px;
+}
+.content p{
+    margin: 10px;
+    margin-left: 23px;
+}
+.main {
+    background-color: red;
+    color: white;
+}
+.main h2{
+    margin: 10px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.BTech{
+    background-color: #0e2a54;
+    color: white;
+    height: 80px;
+    width: 130px;
+    margin: 20px;
+    margin-top: 40px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+.Branch{
+    display: flex;
+}
+.Branch2{
+    display: flex;
+}
+.Branch3{
+    display: flex;
+}
+.Branch4{
+    display: flex;
+}
+.ending{
+    background-color: black;
+    height: 150px;
+    color: white;
+    display: flex;
+}
+.Connect{
+    margin: 20px;
+}
+.Copyright{
+    margin-left: 350px;
+    margin-top: 50px;
+
+}
+
+ @media only screen and (max-width:480px){                       /*--------  phone size ---------------*/
+
+    .navi{
+        background-color:#353a3f;
+        height: 50px;
+        width:100%;
+    }
+    .navi nav{
+        color: red;
+        font-weight: 700;
+        margin-left: 140px;
+    }
+    .imgii{
+        background-color:#e6e6e6;
+        display: flex;
+    
+    }
+    #logo img{
+        margin: 10px;
+        height: 50px;
+        width: 200px;
+    }
+    .butti button{
+        margin-left: 90px;
+        margin-top: 10px;
+        height: 50px;
+        width: 100px;
+        border-radius: 15px;
+        border: 3px solid black;
+        background-color:green;
+        color: white;
+    }
+    .content h1{
+        color: red;
+        margin: 6px;
+        margin-top: 40px;
+    }
+    .content p{
+        margin: 10px;
+        margin-left: 3px;
+    }
+    .main {
+        background-color: red;
+        color: white;
+    }
+    .main h2{
+        margin: 10px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .BTech{
+        background-color: #0e2a54;
+        color: white;
+        height: 80px;
+        width: 130px;
+        margin: 10px;
+        margin-top: 40px;
+        font-size: large;
+        border-radius: 5px;
+        border: 2px solid black;
+        
+    }
+    
+    .ending{
+        background-color: black;
+        height: 200px;
+        color: white;
+        display: flex;
+    }
+    .Connect{
+        margin: 20px;
+    }
+    .Copyright{
+        margin-left: 50px;
+        margin-top: 50px;
+    
+    }
+    
+}
